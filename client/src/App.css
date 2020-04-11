@@ -1,0 +1,114 @@
+.App {
+  background-image: url(images/app_background.jpeg);
+  background-size: cover;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home-page {
+  background-image: url(images/jobsearch-bg.jpg) no-repeat center center fixed;
+  height: 85vh;
+  background-size: cover;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-header {
+  background: url(images/jobsearch-header.jpg) center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg); 
+  }
+}
+
+form a {
+  margin-left: 5px
+}
+
+a {
+  margin-left: 5px
+}
+
+.col-sm-4 {
+  margin-bottom: 18px;
+}
+  
+.card-body {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+}
+  
+.card-header {
+  text-align: center;
+  text-shadow: 1px 1px #00ccff;
+  font-size: 1.5em;
+}
+  
+.index-div {
+  margin-top: 30px
+}
+  
+.card {
+  height: 15em
+}
+  
+.form-header {
+  text-align: center;
+  text-shadow: 1px 1px #00ccff;
+  font-size: 2em;
+}
+
+.type-items button{
+  font-size: 25px;
+  padding: 10px;
+}
+
+.type-description{
+  font-size: 1em;
+  border: 50px;
+  border-color: grey;
+}
+
+.task-item-container{
+  height: 65vh;
+}
+.task-item-card{
+  background-color: lightgrey ;
+  text-align: center;
+  margin: 50px 70px;;
+  height: 60%
+}
+
+.task-item-card a {
+  margin-left: 0;
+}
+
+#task-item-title {
+  text-decoration: underline;
+}
+
+
+#type-link {
+  font-size: 10px;
+}
+
+.footer {
+  text-align: right;
+}
