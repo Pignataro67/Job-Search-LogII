@@ -11,6 +11,7 @@ import Header from './components/header';
 import TasksShow from './containers/tasks_show';
 import HomeNavBar from './components/home_nav_bar';
 import About from './components/about';
+import Footer from './components/Footer';
 
 class App extends Component {
 
@@ -33,6 +34,7 @@ class App extends Component {
             </Switch>  
           </div>
         </Router>
+        <Footer />
       </div>
     );
   }
