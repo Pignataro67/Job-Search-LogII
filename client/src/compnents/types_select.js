@@ -21,7 +21,7 @@ export const TypesSelect = props => {
         {Object.keys(props.options).map(renderSelectOptions)}
       </select>
     </div>
-  )
+  );
 }
 return <div></div>
 }

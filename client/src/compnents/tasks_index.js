@@ -7,7 +7,7 @@ class TasksIndex extends Component {
         Tasks Index
       </div>
     );
-  };
+  }
 }
 
 export default TasksIndex;

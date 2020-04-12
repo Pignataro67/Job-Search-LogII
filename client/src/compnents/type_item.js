@@ -26,7 +26,7 @@ class TypeItem extends Component {
           {type.description}
         </div>
       </div>
-    )
+    );
   }
 }
 

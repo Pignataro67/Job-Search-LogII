@@ -21,7 +21,7 @@ const TaskItemIndex = ({ task }) => {
           </div>
         </div>
       </div>
-    )
+    );
   }
 }
 

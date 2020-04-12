@@ -4,13 +4,9 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () =>
   <div>
     <header className="main-header">
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-
+      <br />
+      <br />
+      <br />
     </header>
     <div className="navbar">
   
