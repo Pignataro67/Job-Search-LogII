@@ -23,7 +23,7 @@ class TasksNew extends Component {
           {meta.touched ? meta.error : ''}
         </div>
       </div>
-    )
+    );
   }
 
   renderTextAreaField(field){
@@ -37,7 +37,7 @@ class TasksNew extends Component {
           {...field.input}
         />
       </div>
-    )
+    );
   }
 
   renderDatePicker({ input, label, meta: { touched, error } }) {
@@ -93,7 +93,7 @@ class TasksNew extends Component {
       </form>
     </div>
     </div>
-    )
+    );
   }
 }
 

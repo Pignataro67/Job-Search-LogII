@@ -33,7 +33,6 @@ class TypesIndex extends Component {
       </div>
     );
   }
-
 }
 
 function mapStateToProps(state) {

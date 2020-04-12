@@ -37,7 +37,7 @@ class TasksIndex extends Component {
 function mapStateToProps(state) {
   return {
     tasks: state.tasks
-  };
+  }
 }
 
 export default connect(mapStateToProps, { fetchTasks })(TasksIndex);

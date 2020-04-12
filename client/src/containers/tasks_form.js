@@ -6,8 +6,8 @@ import Calendar from 'react-calendar';
 import { createTask, fetchTypes } from '../actions';
 
 class TasksForm extends Component {
-  constructor(){
-    super();
+  constructor() {
+    super()
 
   this.handleOnSubmit = this.handleOnSubmit.bind(this)
   this.handleOnChange = this.handleOnChange.bind(this)
@@ -173,7 +173,6 @@ handleOnSubmit = (e) => {
       </div>
     );
   }
-
 }
 
 const mapStateToProps = (state) => {
