@@ -20,7 +20,7 @@ const About = () => {
       Happy job searching!!!
       </p>
     </div>
-  )
+  );
 }
 
 export default About;
