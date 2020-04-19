@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
@@ -6,6 +6,7 @@ import Calendar from 'react-calendar';
 import { createTask, fetchTypes } from '../actions';
 
 class TasksForm extends Component {
+
   constructor() {
     super()
 
@@ -17,7 +18,7 @@ class TasksForm extends Component {
     name: '',
     description: '',
     notes: '',
-    date: newDate(),
+    date: new Date(),
     type_id: ''
   }
 }
