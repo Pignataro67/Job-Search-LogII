@@ -34,6 +34,32 @@
   to { transform: rotate(360deg); }
 }
 
+form a {
+  margin-left: 5px
+}
+
+a {
+  margin-left: 5px
+}
+
+.col-sm-4 {
+  margin-bottom: 18px;
+}
+
+.card-body {
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;  
+}
+
+.card-header {
+  background-image: url(images/divbackground.jpg);
+  background-size: cover;
+  text-align: center;
+  text-shadow: 1px 1px #00ccff;
+  font-size: 1.5em;
+}
+
 .App-link {
   color: #61dafb;
 }
