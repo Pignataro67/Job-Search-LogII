@@ -106,7 +106,7 @@ a {
 }
   
 .index-div {
-  margin-top: 20px
+  margin-top: 30px
 }
   
 .card {
@@ -119,21 +119,23 @@ a {
   font-size: 2em;
 }
 
-.type-items button{
-  font-size: 3px;
-  padding: 20px;
+.type-items button {
+  font-size: 20px;
+  padding: 10px;
 }
 
-.type-description{
+.type-description {
   font-size: 1em;
-  border: 50px;
-  border-color: grey;
+  border: 5px double;
+  border-color: lightpink;
+  margin-bottom: 10px;
 }
 
 .task-item-container{
   height: 65vh;
 }
-.task-item-card{
+
+.task-item-card {
   background-color: lightgrey ;
   text-align: center;
   margin: 40px 60px;;
