@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
-import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Home from './components/home';
-import TasksIndex from './containers/tasks_index';
-import TasksForm from './containers/tasks_form';
-import TypesIndex from './containers/types_index';
-import NavBar from './components/navbar';
-import Header from './components/header';
-import TasksShow from './containers/tasks_show';
-import HomeNavBar from './components/home_nav_bar';
-import About from './components/about';
+import TasksIndex from './containers/TasksIndex';
+import TasksForm from './containers/TasksForm';
+import TypesIndex from './containers/TypesIndex';
+import NavBar from './components/Navbar';
+import TasksShow from './containers/TasksShow';
+import HomeNavBar from './components/HomeNavBar';
+import About from './components/About';
 import Footer from './components/Footer';
 
 class App extends Component {

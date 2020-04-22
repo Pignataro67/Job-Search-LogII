@@ -57,7 +57,7 @@ handleOnSubmit = (e) => {
       name: '',
       description: '',
       notes: '',
-      date: newDate(),
+      date: new Date(),
       type_id: ''
     });
   }
