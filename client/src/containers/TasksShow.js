@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchTask, deleteTask } from '../actions';
-import TaskItemShow from '../components/task_item_show';
+import TaskItemShow from '../components/TaskItemShow';
 
 class TasksShow extends Component {
 
   componentDidMount() {
-    const { id } = this.props.match.params.id
+    const { id } = this.props.match.params
     if (!this.props.task) {
         this.props.fetchTask(id);
     }
