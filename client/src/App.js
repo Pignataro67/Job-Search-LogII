@@ -5,11 +5,15 @@ import Home from './components/home';
 import TasksIndex from './containers/TasksIndex';
 import TasksForm from './containers/TasksForm';
 import TypesIndex from './containers/TypesIndex';
-import NavBar from './components/Navbar';
+import NavBar from '../components/Navbar';
 import TasksShow from './containers/TasksShow';
 import HomeNavBar from './components/HomeNavBar';
-import About from './components/About';
-import Footer from './components/Footer';
+import About from '../components/About';
+import Footer from '../components/Footer';
+// import TasksShow from './containers/TasksShow';
+// import HomeNavBar from './components/HomeNavBar';
+// import About from './components/About';
+// import Footer from './components/Footer';
 
 class App extends Component {
 
