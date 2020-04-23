@@ -19,7 +19,8 @@
     "redux": "^4.0.5",
     "redux-form": "^8.3.0",
     "redux-thunk": "^2.3.0",
-    "semantic-ui-redux-form-fields": "^1.0.1"
+    "semantic-ui-redux-form-fields": "^1.0.1",
+    "thunk": "0.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
