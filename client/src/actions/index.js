@@ -1,5 +1,4 @@
 import fetch from 'isomorphic-fetch';
-require('es6-promise').polyfill();
 export const FETCH_TASKS = 'FETCH_TASKS';
 export const RECEIVED_TASKS = 'RECEIVED_TASKS';
 export const CREATE_TASK = 'CREATE_TASK';

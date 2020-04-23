@@ -5,11 +5,11 @@ import Home from './components/home';
 import TasksIndex from './containers/TasksIndex';
 import TasksForm from './containers/TasksForm';
 import TypesIndex from './containers/TypesIndex';
-import NavBar from '../components/Navbar';
+import navBar from './components/navbar';
 import TasksShow from './containers/TasksShow';
 import HomeNavBar from './components/HomeNavBar';
-import About from '../components/About';
-import Footer from '../components/Footer';
+import about from './components/about';
+import footer from './components/footer';
 // import TasksShow from './containers/TasksShow';
 // import HomeNavBar from './components/HomeNavBar';
 // import About from './components/About';
@@ -24,11 +24,11 @@ class App extends Component {
           <div className="routes">
             <Switch>
               <Route exact path="/" component={HomeNavBar} />
-              <Route path="/" component={NavBar} />
+              <Route path="/" component={navBar} />
             </Switch>
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="/about" component={About} />
+              <Route path="/about" component={about} />
               <Route exact path="/tasks/new" component={ TasksForm } />
               <Route path="/tasks/:id" component={ TasksShow } />
               <Route exact path="/tasks" component={ TasksIndex } />
@@ -36,7 +36,7 @@ class App extends Component {
             </Switch>  
           </div>
         </Router>
-        <Footer />
+        <footer />
       </div>
     );
   }
